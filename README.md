@@ -55,7 +55,7 @@
   ```
     sudo nano .zshrc
   ```
-  Obs.: Procucar **_End of Zinit's installer chunk_**
+  Obs.: Procurar **_End of Zinit's installer chunk_**
 * Instalar plugins
   ```
     zinit light zdharma/fast-syntax-highlighting
@@ -94,7 +94,7 @@
     ssh-add ~/.ssh/id_ed25519
   ```
   Obs.: Adicionando a chave SSH
-* Copiar chave SSH para área de transferencia
+* Copiar chave SSH para área de transferência
   ```
     cat ~/.ssh/id_ed25519.pub
   ```
@@ -105,7 +105,7 @@
   ```
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
   ```
-* Instalação do node.js lst
+* Instalação do node.js lts
   ```
     nvm install --lts
   ```
