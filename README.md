@@ -51,6 +51,7 @@
   ```
   bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
   ```
+  Obs: Enter y/n and press Return: y
 * Configuração ZSH
   ```
   sudo nano .zshrc
