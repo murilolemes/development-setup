@@ -122,3 +122,32 @@
   ```
   npm install --global yarn
   ```
+
+## Criar novo projeto com Vite
+* Criar projeto Vite
+  ```
+  npm create vite@latest
+  ```
+* Digitar o nome do projeto
+* Selecionar framework **React**
+* Selecionar o tipo **react-ts**
+* Instalar as dependencias
+  ```
+  npm i
+  ```
+
+# Criar novo projeto com Next.js
+* Criar projeto Next.js
+  ```
+  npx create-next-app@latest
+  ```
+  ou
+  ```
+  yarn create next-app
+  ```
+  Obs.: Digitar Y + Enter para aceitar instalar o create app
+* Digitar o nome do projeto
+* Instalar as dependencias
+  ```
+  npm i
+  ```
