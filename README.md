@@ -131,7 +131,7 @@
 * Digitar o nome do projeto
 * Selecionar framework **React**
 * Selecionar o tipo **react-ts**
-* Instalar as dependencias
+* Instalar as dependências
   ```
   npm i
   ```
@@ -147,7 +147,13 @@
   ```
   Obs.: Digitar Y + Enter para aceitar instalar o create app
 * Digitar o nome do projeto
-* Instalar as dependencias
+* Selecionar **NO** ou **YES** para utilizar TypeScript
+* Selecionar **NO** ou **YES** para utilizar ESLint
+* Selecionar **NO** ou **YES** para utilizar Tailwind CSS
+* Selecionar **NO** ou **YES** para utilizar diretório **src/**
+* Selecionar **NO** ou **YES** para utilizar **App Router**
+* Selecionar **NO** ou **YES** para utilizar **import alias**
+* Instalar as dependências
   ```
   npm i
   ```
