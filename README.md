@@ -176,4 +176,7 @@
   ```
   npx next lint
   ```
-  
+* Corrigir erros ESLint
+  ```
+  npx eslint src --ext .ts,.tsx --fix
+  ```
