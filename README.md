@@ -157,3 +157,23 @@
   ```
   npm i
   ```
+
+# Configurar ESLint
+* Instalar pacode de dependência
+  ```
+  npm i @rocketseat/eslint-config -D
+  ```
+* Alterar o arquivo .eslintrc para
+  ```
+  {
+    "extends": "@rocketseat/eslint-config/react",
+    "rules": {
+      "@typescript-eslint/no-explicit-any": "off"
+    }
+  }
+  ```
+* Executar o comando
+  ```
+  npx next lint
+  ```
+  
