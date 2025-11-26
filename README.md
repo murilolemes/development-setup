@@ -122,6 +122,20 @@
   ```
   npm install --global yarn
   ```
+* Verificar se está instalado
+  ```
+  yarn -v
+  ```
+
+## Instalação do PNPM
+* Comando de instalação pnpm
+  ```
+  npm install -g pnpm
+  ```
+* Verificar se está instalado
+  ```
+  pnpm -v
+  ```
 
 ## Criar novo projeto com Vite
 * Criar projeto Vite
@@ -136,15 +150,22 @@
   npm i
   ```
 
-# Criar novo projeto com Next.js
+## Criar novo projeto com Next.js
 * Criar projeto Next.js
+
+  Com npm
   ```
-  npx create-next-app@latest
+  npx create-next-app@latest nome-do-projeto
   ```
-  ou
+  Com yarn
   ```
-  yarn create next-app
+  yarn create next-app nome-do-projeto
   ```
+  Com pnpm
+  ```
+  pnpm create next-app nome-do-projeto
+  ```
+
   Obs.: Digitar Y + Enter para aceitar instalar o create app
 * Digitar o nome do projeto
 * Selecionar **NO** ou **YES** para utilizar TypeScript
@@ -154,29 +175,56 @@
 * Selecionar **NO** ou **YES** para utilizar **App Router**
 * Selecionar **NO** ou **YES** para utilizar **import alias**
 * Instalar as dependências
+
+  Com npm
   ```
   npm i
   ```
+  Com yarn
+  ```
+  yarn i
+  ```
+  Com pnpm
+  ```
+  pnpm i
+  ```
 
-# Configurar ESLint
-* Instalar pacode de dependência
+## Criar novo projeto com Nest.js
+* Instalar o Nest CLI
+
+  Com npm
   ```
-  npm i @rocketseat/eslint-config -D
+  npm install -g @nestjs/cli
   ```
-* Alterar o arquivo .eslintrc para
+  Com pnpm
   ```
-  {
-    "extends": "@rocketseat/eslint-config/react",
-    "rules": {
-      "@typescript-eslint/no-explicit-any": "off"
-    }
-  }
+  pnpm add -g @nestjs/cli
   ```
-* Executar o comando
+
+* Criar o projeto Nest
   ```
-  npx next lint
+  nest new nome-do-projeto
   ```
-* Corrigir erros ESLint
+
+* Selecione o gerenciador de pacotes desejado
+
+  **npm**
+
+  **yarn**
+
+  **pnpm**
+
+* Instalar as dependências
+
+  Com npm
   ```
-  npx eslint src --ext .ts,.tsx --fix
+  npm i
+  ```
+  Com yarn
+  ```
+  yarn i
+  ```
+  Com pnpm
+  ```
+  pnpm i
   ```
